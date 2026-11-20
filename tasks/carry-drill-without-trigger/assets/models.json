@@ -1,0 +1,28 @@
+{
+  "models": [
+    {
+      "name": "drill",
+      "usd": "drill.usda",
+      "source": "Original task-authored cordless drill built from boxes; reproducible with make_models.py. No third-party mesh or textures.",
+      "license": "CC0-1.0",
+      "size_m": [
+        0.21,
+        0.21,
+        0.075
+      ],
+      "orientation": "z up, lying on its left side; chuck along +x, the drill's top along +y; centred local bounds",
+      "collision": "One convex-hull box collider per part: motor housing, chuck, handle, trigger block and battery; the round chuck shell and the housing stripe are visual only.",
+      "mass": "0.6 kg set by the task; rigid body, no articulation; the trigger is fixed"
+    }
+  ],
+  "files": {
+    "LICENSE.txt": {
+      "sha256": "9e88d2a98f1d7f754e7a88ed0c3ce17b36412104b1f5c3f6eb75f1594fe09022",
+      "bytes": 117
+    },
+    "drill.usda": {
+      "sha256": "716134c4a1431fe3fcb93702cc492b199d09b63304895d802ea94fd7cf95b1b3",
+      "bytes": 8820
+    }
+  }
+}
